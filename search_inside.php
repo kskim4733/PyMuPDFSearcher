@@ -23,7 +23,7 @@ $callback = escapeshellarg($callback);
 $item_id  = escapeshellarg($item_id);
 $path     = escapeshellarg($path);
 
-// Mimic's escapeshellarg except that it doesn't remove special characters (like é).
+// Mimic's escapeshellarg except that it doesn't remove special charsacters (like é).
 $q = "'" . str_replace("'", "\'", trim($q, '"')) . "'";
 
 // "abbyy" or "css", Changes the way coordinates are presented. Don't need to change.
@@ -31,7 +31,7 @@ $style = escapeshellarg("abbyy");
 
 // Execute the shell command to run the .jar file. Uses the Apache PDFBox library.
 // $script       = "java -jar pddfbox_search.jar " . $item_id . " " . $path . " " . $q . " '" . $callback . "' '" . $style . "' ";
-$script       = "python3.7 PyPDFSearcher.py " . $item_id . " " . $path . " " . $q . " '" . $callback . "' '" . $style . "' ";
+$script       = "python3.7 PyMuSearcher.py " . $item_id . " " . $path . " " . $q . " '" . $callback . "' '" . $style . "' ";
 
 $shell_output = shell_exec('LANG="en_US.utf-8"; ' . $script);
 
