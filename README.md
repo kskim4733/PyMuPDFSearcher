@@ -11,7 +11,7 @@ This project was based on [this](https://github.com/leslie-lau/fulltextsearch/tr
 This project requires [python 3.7]((https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/)) and pdfminer to work.  
 Install pip for python 3.7 (python3.7 -m pip install pip).  
 Make sure that pdfminer library is accessible from the python that PHP is using.  
-You can installation step of PyMuPDF on Ubuntu in https://github.com/pymupdf/PyMuPDF/wiki/Ubuntu-Installation-Experienc
+You can installation step of PyMuPDF on Ubuntu [here](https://github.com/pymupdf/PyMuPDF/wiki/Ubuntu-Installation-Experience)
 
 
 Please replace existing search_inside.php with the [new one](https://github.com/kskim4733/PyMuPDFSearcher/blob/master/search_inside.php) from this repository.  
