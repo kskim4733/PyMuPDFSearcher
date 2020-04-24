@@ -14,7 +14,7 @@ Make sure that pdfminer library is accessible from the python that PHP is using.
 You can installation step of PyMuPDF on Ubuntu in https://github.com/pymupdf/PyMuPDF/wiki/Ubuntu-Installation-Experienc
 
 
-Please replace existing search_inside.php with the [new one](https://asd/search_inside.php) from this repository.  
+Please replace existing search_inside.php with the [new one](https://github.com/kskim4733/PyMuPDFSearcher/blob/master/search_inside.php) from this repository.  
 
 
 ## Overview
