@@ -1,10 +1,10 @@
 # PyMuPDFSearcher
 PDF term and context searcher using PyMuPDF Library. Extract page size, page number, and term coordinate
 
-# PyMuSearcher
-PyMuSearcher returns coordinate of the queried term and coordinates of it's corresponding text.  
+# PyMuSearcher.py
+PyMuSearcher.py returns coordinate of the queried term and coordinates of it's corresponding text.  
 The code was designed to work with [Bookreader Plugin for Resourcespace](https://github.com/leslie-lau/bookreader) and uses the following [API](https://openlibrary.org/dev/docs/api/search_inside).  
-PyMuSearcher will get called by [search_inside.php](https://github.com/leslie-lau/bookreader/blob/master/search_inside.php).  
+PyMuSearcher.py will get called by [search_inside.php](https://github.com/leslie-lau/bookreader/blob/master/search_inside.php).  
 This project was based on [this](https://github.com/leslie-lau/fulltextsearch/tree/master/src/fulltextsearch) project.  
 
 ## Requirements
