@@ -31,7 +31,7 @@ $style = escapeshellarg("abbyy");
 
 // Execute the shell command to run the .jar file. Uses the Apache PDFBox library.
 // $script       = "java -jar pddfbox_search.jar " . $item_id . " " . $path . " " . $q . " '" . $callback . "' '" . $style . "' ";
-$script       = "python3.7 PyMuSearcher.py " . $item_id . " " . $path . " " . $q . " '" . $callback . "' '" . $style . "' ";
+$script       = "python3 PyMuSearcher.py " . $item_id . " " . $path . " " . $q . " '" . $callback . "' '" . $style . "' ";
 
 $shell_output = shell_exec('LANG="en_US.utf-8"; ' . $script);
 
